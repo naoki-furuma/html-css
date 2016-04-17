@@ -1,24 +1,20 @@
-html {
-  font-size: 16px;
-}
-
-body {
+.page {
   margin: 0 auto;
   width: 940px;
   background-color: #d8e698;
   font-family: Tahoma, Geneva, sans-serif;
 }
 
-header {
+.p_head {
   padding: 20px 0;
 }
 
-header h1 {
+.p_title {
   color: #007b43;
   font-size: 1.55rem;
 }
 
-nav {
+.p_nav {
   float: left;
   margin-right: 10px;
   padding: 5px 10px;
@@ -26,28 +22,31 @@ nav {
   background-color: #3cb371;
 }
 
-nav ul li {
+.p_nav ul li {
   margin: 10px 0px;
 }
 
-nav ul li a {
+.p_nav ul li a {
   color: #ffffff;
   text-decoration: none;
   font-size: 1.1rem;
 }
 
-article {
+.p_article {
   margin-left: 210px;
   padding: 15px;
   background-color: #ffffff;
   color: #808080;
-  font-size: 1.2rem;
 }
 
-article h2 {
+.p_article h2 {
   margin-bottom: 15px;
   padding: 8px 15px;
   border: 2px solid #f2a0a1;
   color: #028760;
   font-size: 1.3rem;
+}
+
+.p_article p {
+  font-size: 1.2rem;
 }
